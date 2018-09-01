@@ -1,0 +1,22 @@
++ Add y/n function to ask user. return 1 if yes 0 if no.
++ Add scrolling
++ Password and username
++ Menu at top of console.
++ more UNIX functionality, less dependencies on the console(); function.
+
+Console 4 change notes:
++ Added password functionality through a sub-interface (a sub program).
++ Three dot animation.
++ The default commands no longer are case-sensitive
++ New on/off button styling
+Front End:
+
+Backend:
++ kernel_task() funciton which replaces many core system services. kernel_task() is the heart of the OS.
++ kernel_task("panic") triggers a kernel panic, system locks up.
++ kernel_drive() the kernel_task that runs during a program.
++ consolewriteSL() overwrites the current line.
++ checkPassword() kernel object to check password
++ setPassword() sub-interface to check program
++ threeDots() sets the animation.
++ annimateDots annimates the dots.
